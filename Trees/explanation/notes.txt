@@ -1,0 +1,36 @@
+Type of BT
+1-> According to number of nodes
+    1-> Full Binary Tree
+    A full binary tree is a binary tree with either zero or two child nodes for each node.
+
+    2-> Degenerate (or pathological) tree
+        A Tree where every internal node has one child. Such trees are performance-wise same as linked list. A degenerate or pathological tree is a tree having a single child either left or right.
+
+
+    3-> Skewed Binary Tree
+        A skewed binary tree is a pathological/degenerate tree in which the tree is either dominated by the left nodes or the right nodes. Thus, there are two types of skewed binary tree: left-skewed binary tree and right-skewed binary tree.  
+
+
+
+
+
+
+
+2) Types of Binary Tree On the basis of the completion of levels:
+-->Complete Binary Tree
+A complete binary tree is just like a full binary tree, but with two major differences:
+Every level must be completely filled
+All the leaf elements must lean towards the left.
+The last leaf element might not have a right sibling i.e. a complete binary tree doesn’t have to be a full binary tree.
+
+In a Perfect Binary Tree, the number of leaf nodes is the number of internal nodes plus 1   
+
+ L = I + 1 Where L = Number of leaf nodes, I = Number of internal nodes.
+
+A Perfect Binary Tree of height h (where the height of the binary tree is the number of edges in the longest path from the root node to any leaf node in the tree, height of root node is 0) has 2h+1 – 1 node. 
+An example of a Perfect binary tree is ancestors in the family. Keep a person at root, parents as children, parents of parents as their children. 
+
+
+        -->Perfect Binary Tree
+        -->Balanced Binary Tree
+    
